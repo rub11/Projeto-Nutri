@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100; 1.200;1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.div-header {
+    min-width: 400px;
+    max-width: 1500px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.img1-logo {
+    width: 200px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+
+}
+
+.div-nav {
+    width: 40%;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: rgb(216, 229, 205);
+    padding: 8px;
+    border-radius: 2vh;
+
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    padding: 6px;
+}
+
+a:hover {
+    background-color: rgba(66, 122, 57, 0.556);
+    border-radius: 5vh;
+    color: white;
+
+}
+
+ul,
+li {
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+
+}
+
+.div-main {
+    min-width: 400px;
+    max-width: 1500px;
+}
+
+.div-img-fundo {
+    position: absolute;
+    top: 130px;
+    left: 150px;
+}
+
+
+.title1 {
+    position: absolute;
+    top: 170px;
+    right: 500px;
+    font-size: 3em;
+    font-family: 'anton';
+    font-style: normal;
+    font-weight: 200;
+
+
+}
+
+.title2 {
+    position: absolute;
+    top: 240px;
+    right: 450px;
+    font-family: 'anton';
+    font-style: normal;
+    font-weight: 200;
+}
+
+.title-paragrafo {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    text-align: justify;
+}
+
+.div-img-01 {
+    position: absolute;
+    right: 40px;
+    top: 120px;
+
+}
+
+.img-01 {
+    width: 300px;
+}
+
+.footer-text {
+    text-align: justify;
+    position: absolute;
+    top: 70%;
+    left: 100px;
+    margin-bottom: 30px;
+
+}
+
+.footer-img {
+    width: 300px;
+    position: absolute;
+    top: 57%;
+    left: 500px;
+}
+
+.div-logo2 {
+    position: absolute;
+    top: 57%;
+    right: 230px;
+}
+
+.logo2 {
+    width: 300px;
+}
+
+@media screen and (max-width: 760px) {
+
+    .img1-logo {
+        position: absolute;
+        top: -5px;
+        left: -5px;
+    }
+
+    .div-nav {
+        position: absolute;
+        top: 60px;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    a {
+
+        margin-left: 30px;
+        padding-right: 10px;
+    }
+
+    .title1 {
+        font-size: 1.8em;
+        position: absolute;
+        top: 150px;
+        right: 250px;
+
+    }
+
+    .title2 {
+        top: 220px;
+        right: 55px;
+    }
+
+    .title-paragrafo {
+        position: absolute;
+        top: 260px;
+        right: 260px;
+        margin-left: 10px;
+        max-width: 200px;
+    }
+
+    .div-img-01 {
+        position: absolute;
+        top: 220px;
+    }
+
+    .img-01 {
+        width: 240px;
+    }
+
+    .footer-text {
+        top: 70%;
+        left: 50px;
+        max-width: 150px;
+        margin-bottom: 30px;
+
+    }
+
+    .footer-img {
+        width: 200px;
+        top: 70%;
+        left: 200px;
+    }
+
+    .div-logo2 {
+        top: 18px;
+        right: 50px;
+    }
+
+    .logo2 {
+        width: 70px;
+    }
+
+    .img-fundo {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .img-fundo {
+        display: none;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 836px) {
+
+    .img-fundo {
+        display: none;
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .title1 {
+        position: absolute;
+        top: 150px;
+        font-size: large;
+        font-size: 1.5em;
+
+    }
+
+    .title2 {
+        position: absolute;
+        left: 20px;
+        top: 180px;
+        font-weight: 200;
+        font-size: small;
+        font-size: 1.1em;
+        margin-left: 30px;
+
+    }
+
+    .title-paragrafo {
+
+
+        margin-left: 30px;
+    }
+
+    .title-paragrafo {
+        position: absolute;
+        top: 230px;
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1325px) {
+
+    .img-fundo {
+        position: absolute;
+        left: -100px;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1120px) {
+
+    .img-fundo {
+        display: none;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    .img-fundo {
+        display: none;
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .title1 {
+        position: absolute;
+        top: 130px;
+        margin-left: 20px;
+    }
+
+    .title2 {
+        margin-left: 20px;
+    }
+
+    .title-paragrafo {
+        margin-left: 20px;
+    }
+}
