@@ -17,24 +17,10 @@ body {
 }
 
 .img1-logo {
-    width: 200px;
-    float: left;
-    position: absolute;
-    top: 10px;
-    left: 30px;
-
+    width: 130px;
 }
 
-.div-nav {
-    width: 40%;
-    float: right;
-    margin-right: 30px;
-    margin-top: 30px;
-    background-color: rgb(216, 229, 205);
-    padding: 8px;
-    border-radius: 2vh;
 
-}
 
 a {
     text-decoration: none;
@@ -51,10 +37,20 @@ a:hover {
 
 ul,
 li {
+    width: 70%;
     justify-content: space-around;
     display: flex;
-    list-style: none;
+    padding: 6px;
+    align-items: center;
+    float: right;
 
+
+}
+
+ul {
+    box-shadow: 5px 4px 6px -2px rgba(128, 128, 128, 0.492);
+    margin-top: -35px;
+    margin-right: 10px;
 }
 
 .div-main {
@@ -134,187 +130,36 @@ li {
     width: 300px;
 }
 
-@media screen and (max-width: 760px) {
 
-    .img1-logo {
-        position: absolute;
-        top: -5px;
-        left: -5px;
-    }
 
-    .div-nav {
-        position: absolute;
-        top: 60px;
-        background-color: transparent;
-        display: flex;
-        justify-content: space-between;
 
-    }
 
-    a {
 
-        margin-left: 30px;
-        padding-right: 10px;
-    }
-
-    .title1 {
-        font-size: 1.8em;
-        position: absolute;
-        top: 150px;
-        right: 250px;
-
-    }
-
-    .title2 {
-        top: 220px;
-        right: 55px;
-    }
-
-    .title-paragrafo {
-        position: absolute;
-        top: 260px;
-        right: 260px;
-        margin-left: 10px;
-        max-width: 200px;
-    }
-
-    .div-img-01 {
-        position: absolute;
-        top: 220px;
-    }
-
-    .img-01 {
-        width: 240px;
-    }
-
-    .footer-text {
-        top: 70%;
-        left: 50px;
-        max-width: 150px;
-        margin-bottom: 30px;
-
-    }
-
-    .footer-img {
-        width: 200px;
-        top: 70%;
-        left: 200px;
-    }
-
-    .div-logo2 {
-        top: 18px;
-        right: 50px;
-    }
-
-    .logo2 {
-        width: 70px;
-    }
-
-    .img-fundo {
-        display: none;
-    }
+.hidden {
+    display: none;
 }
 
-
-@media screen and (max-width: 1024px) {
-
-    .img-fundo {
-        display: none;
-    }
-
-    .logo2 {
-        display: none;
-    }
+#dropdownButton {
+    padding: 5px 25px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 836px) {
+#dropdownList {
 
-    .img-fundo {
-        display: none;
-    }
-
-    .logo2 {
-        display: none;
-    }
-
-    .title1 {
-        position: absolute;
-        top: 150px;
-        font-size: large;
-        font-size: 1.5em;
-
-    }
-
-    .title2 {
-        position: absolute;
-        left: 20px;
-        top: 180px;
-        font-weight: 200;
-        font-size: small;
-        font-size: 1.1em;
-        margin-left: 30px;
-
-    }
-
-    .title-paragrafo {
-
-
-        margin-left: 30px;
-    }
-
-    .title-paragrafo {
-        position: absolute;
-        top: 230px;
-        margin-left: 40px;
-    }
-
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #becfb2;
+    width: 200px;
 }
 
-@media screen and (max-width: 1325px) {
-
-    .img-fundo {
-        position: absolute;
-        left: -100px;
-    }
-
-    .logo2 {
-        display: none;
-    }
+#dropdownList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
-
-@media screen and (max-width: 1120px) {
-
-    .img-fundo {
-        display: none;
-    }
-
-    .logo2 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 840px) {
-
-    .img-fundo {
-        display: none;
-    }
-
-    .logo2 {
-        display: none;
-    }
-
-    .title1 {
-        position: absolute;
-        top: 130px;
-        margin-left: 20px;
-    }
-
-    .title2 {
-        margin-left: 20px;
-    }
-
-    .title-paragrafo {
-        margin-left: 20px;
-    }
+#dropdownList li:hover {
+    background-color: #6ad72776;
 }

@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="style.css">
     <title>Nutriçao</title>
 </head>
 <body>
+
+  
+        <img class="img1-logo" src="Projeto-pg-01/imagens/Logo-Inicial-removebg-preview.png" alt="">
+        
     <div class="div-header">
-    <div class="div-logo">
-    <img class="img1-logo" src="Projeto-pg-01/imagens/Logo-Inicial-removebg-preview.png" alt="">
-    </div>
-    <div class="div-nav">
+    
+  
        <ul>
         <li>
             <a href="#"> Home</a>
@@ -27,8 +30,11 @@
         </li>
        </ul> 
 
+   
     </div>
-    </div>
+
+    
+ 
 
    <div class="div-main">
     <div class="div-img-fundo">
@@ -63,5 +69,27 @@
 <img class="logo2" src="Projeto-pg-01/imagens/nutri-logo.png" alt="">
       </div>
    </div>
+
+   <button id="dropdownButton">≡</button>
+   <ul id="dropdownList" class="hidden">
+       <li>Home</li>
+       <li>Contato</li>
+       <li>Sobre</li>
+   </ul>
+
+
+<script>
+    document.getElementById('dropdownButton').addEventListener('click', function() {
+        var list = document.getElementById('dropdownList');
+        if (list.classList.contains('hidden')) {
+            list.classList.remove('hidden');
+        } else {
+            list.classList.add('hidden');
+        }
+    });
+    
+</script>
+
+
 </body>
 </html>
